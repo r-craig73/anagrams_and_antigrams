@@ -19,5 +19,9 @@ describe('#anagrams_and_antigrams') do
     word1 = Anagrams.new("Happy")
     expect(word1.compare_words("Happy", "Tea")).to(eq("These words have no letter matches and are antigrams."))
   end
+  it("checks if the input word does not contain empty space or punctuations") do
+    word1 = Anagrams.new("be low")
+    expect(word1.compare_words("be low", "elbow")).to(eq("These words are anagrams."))
+  end
 
 end

@@ -12,13 +12,13 @@
 2. Check if the two words have different cases ("Ruby" or "ruby").
 3. Check if the input word (word1) contains vowels.
 4. Check if the input word (word1) does not match the number of letters.
-5. TBD
+5. Check if the input word (word1) does not contain empty spaces or punctuations.
 
 ## Setup/Installation Requirements
 ### Install Ruby (via. RailsInstaller) and Gems (rspec and pry).
 
 ## Known Bugs
-### To be dertermined.
+### To be determined.
 
 ## Technologies Used
 * ruby
