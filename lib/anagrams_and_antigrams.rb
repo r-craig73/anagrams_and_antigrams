@@ -14,6 +14,8 @@ class Anagrams
       "These words are anagrams"
     elsif input1.scan(/[aeiouy]/).count == 0
       "You need to input actual words!"
+    elsif input1.chars.sort() != input2.chars.sort()
+      "These words have no letter matches and are antigrams."
     else
       "What's going on?"
     end
