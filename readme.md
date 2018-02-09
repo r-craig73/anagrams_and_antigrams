@@ -18,7 +18,7 @@
 ### Install Ruby (via. RailsInstaller) and Gems (rspec and pry).
 
 ## Known Bugs
-### Can not delete bracket ([]) punctuations
+### Fifth specification: Can not delete bracket ([]) punctuations.
 
 ## Technologies Used
 * ruby
@@ -26,4 +26,4 @@
 
 ### MIT License
 
-Copyright (c) 2018 **_Ron Craig (ron.craig@comcast.net)
+Copyright (c) 2018 **_Ron Craig (ron.craig@comcast.net)_**
