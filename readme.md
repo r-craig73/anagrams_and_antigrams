@@ -18,7 +18,7 @@
 ### Install Ruby (via. RailsInstaller) and Gems (rspec and pry).
 
 ## Known Bugs
-### To be determined.
+### Can not delete bracket ([]) punctuations
 
 ## Technologies Used
 * ruby
