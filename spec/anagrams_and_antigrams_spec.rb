@@ -15,5 +15,9 @@ describe('#anagrams_and_antigrams') do
     word1 = Anagrams.new("Tdv")
     expect(word1.compare_words("Tdv", "Tea")).to(eq("You need to input actual words!"))
   end
+  it("checks if the input word does not match the number of letters") do
+    word1 = Anagrams.new("Hi")
+    expect(word1.compare_words("Hi", "Tea")).to(eq("These words have no letter matches and are antigrams."))
+  end
 
 end

@@ -10,11 +10,7 @@ class Anagrams
     sort2 = input2.downcase().chars.sort()
     if sort1 == sort2
       "These words are anagrams"
-    elsif (sort1 != "a") | (sort1 != "e")
-      "You need to input actual words!"
-    elsif (sort1 != "i") | (sort1 != "o")
-      "You need to input actual words!"
-    elsif (sort1 != "u") | (sort1 != "y")
+    elsif ((sort1 != "a") | (sort1 != "e") | (sort1 != "i") | (sort1 != "o") | (sort1 != "u") | (sort1 != "y"))
       "You need to input actual words!"
     else
       "These words are not anagrams"
