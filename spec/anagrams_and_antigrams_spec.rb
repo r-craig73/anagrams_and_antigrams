@@ -2,7 +2,6 @@ require('rspec')
 require('pry')
 require('anagrams_and_antigrams')
 
-
 describe('#anagrams_and_antigrams') do
   it("checks if two words are anagrams") do
     word1 = Anagrams.new("ruby")
