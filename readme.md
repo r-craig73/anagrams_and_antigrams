@@ -9,8 +9,8 @@
 
 ## Specification
 1. Check if the two words are anagrams.
-2. TBD
-3. TBD
+2. Check if the two words have different cases ("Ruby" or "ruby").
+3. Check if the input word contains vowels.
 4. TBD
 5. TBD
 
