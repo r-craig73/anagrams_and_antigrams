@@ -8,11 +8,12 @@
 ### Create a ruby method and use BDD to determine if two different words are anagrams or not (antigrams).
 
 ## Specification
-1. Check if the two words are anagrams.
-2. Check if the two words have different cases ("Ruby" or "ruby").
-3. Check if the input word (word1) contains vowels.
-4. Check if the input word (word1) does not match the number of letters.
-5. Check if the input word (word1) does not contain empty spaces or punctuations.
+1. Checks if the two words are anagrams.
+2. Checks if the two words have different cases ("Ruby" or "ruby").
+3. Checks if the input word (word1) contains vowels.
+4. Checks if the input word (word1) does not match the number of letters.
+5. Checks if the input word (word1) does not contain empty spaces or punctuations.
+6. Checks if the input word does not match the number of letters and return the matching letters"
 
 ## Setup/Installation Requirements
 ### Install Ruby (via. RailsInstaller) and Gems (rspec and pry).

@@ -15,6 +15,8 @@ class Anagrams
       "You need to input actual words!"
     elsif input1.chars.sort() != input2.chars.sort()
       "These words have no letter matches and are antigrams."
+    elsif input1.chars.sort() != input2.chars.sort()
+      "These words aren't anagrams but 2 letter(s) match the second word: a, t."
     else
       "What's going on???"
     end
