@@ -13,13 +13,15 @@
 3. Checks if the input word (word1) contains vowels.
 4. Checks if the input word (word1) does not match the number of letters.
 5. Checks if the input word (word1) does not contain empty spaces or punctuations.
-6. Checks if the input word does not match the number of letters and return the matching letters"
+6. Checks if the input word does not match the number of letters and return the matching letters (not working).
 
 ## Setup/Installation Requirements
 ### Install Ruby (via. RailsInstaller) and Gems (rspec and pry).
 
 ## Known Bugs
 ### Fifth specification: Can not delete bracket ([]) punctuations.
+### Sixth specification: Not working.
+### Debugging issue: Gem pry is not working in the windows GitBash terminal!  The user sees a black screen after inputting a variable.
 
 ## Technologies Used
 * ruby

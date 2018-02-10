@@ -7,6 +7,7 @@ class Anagrams
   def compare_words(input1, input2)
     input1 = @word1
     input1 = input1.gsub(/[ ';>.,!<?]/, '')
+    # matching_letters = input1.chars.sort() & input2.chars.sort()
     if input1.chars.sort() == input2.chars.sort()
       "These words are anagrams."
     elsif input1.downcase().chars.sort() == input2.downcase().chars.sort()
@@ -15,8 +16,8 @@ class Anagrams
       "You need to input actual words!"
     elsif input1.chars.sort() != input2.chars.sort()
       "These words have no letter matches and are antigrams."
-    elsif input1.chars.sort() != input2.chars.sort()
-      "These words aren't anagrams but 2 letter(s) match the second word: a, t."
+    # elsif input1.chars.sort() != input2.chars.sort()
+    #   "#{matching_letters}"
     else
       "What's going on???"
     end
