@@ -1,6 +1,7 @@
 # anagrams_and_antigrams
 
-#### by Ron Craig (ron.craig@comcast.net), updated 2/9/2018
+#### by Ron Craig (ron.craig@comcast.net)
+#### An Epicodus lesson: original 2/9/2018, updated 9/27/2018
 ### GitHub repository: https://github.com/r-craig73/anagrams_and_antigrams
 
 
