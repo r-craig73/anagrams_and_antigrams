@@ -10,14 +10,14 @@
 
 ## Specification
 1. Checks if the input word (word1) does not contain empty spaces or punctuations.
-2. Checks if the two words are anagrams.
-3. Checks if the two words have different cases ("Ruby" or "ruby").
-4. Checks if the input word (word1) contains vowels.
+2. Checks if the input word (word1) contains vowels.
+3. Checks if the two words are anagrams.
+4. Checks if the two words have different capital/lower cases ("Ruby" or "Bury").
 5. Checks if the input word (word1) does not match the number of letters.
 6. Checks if the input word does not match the number of letters and return the matching letters (not working).
 
 ### Rspec results
-![alt-text](img/rspec-screenshot.png "Screenshot or rspec results, coming soon")
+![alt-text](img/rspec-screenshot.png "5 specs passing Screenshot")
 
 ## Known Bugs
 ### Sixth specification is not working.
